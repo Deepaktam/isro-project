@@ -89,9 +89,9 @@ const defaultItems=[
         State:"Kerala"
     }
 ];
-window.onload=()=>{
+
     result.innerHTML=defaultElement();
-}
+
 function defaultElement(){
     let el="";
     for(let i=0;i<defaultItems.length;i++){
